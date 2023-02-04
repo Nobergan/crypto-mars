@@ -1,0 +1,6 @@
+mixin header(data)
+  header.header
+    img.header__logo(src= data.header.logo.src alt= data.header.logo.alt)
+    ul.header__nav
+      each item in data.header.nav
+        li.header__nav-item= item.item

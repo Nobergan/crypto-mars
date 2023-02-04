@@ -1,0 +1,9 @@
+doctype html
+html(lang="ru")
+  include head/head
+  include ../components/components
+
+  +head(data)
+  body
+    +components(data)
+    <script src="./bundle.js"></script>

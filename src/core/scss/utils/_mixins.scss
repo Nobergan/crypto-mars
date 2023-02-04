@@ -1,0 +1,36 @@
+// Mixins.
+@mixin media-desktop-size {
+  @media screen and (max-width: 1920px - 0.1px) {
+    @content;
+  }
+}
+
+@mixin media-laptop-size {
+  @media screen and (max-width: 1200px - 0.1px) {
+    @content;
+  }
+}
+
+@mixin media-tablet-size {
+  @media screen and (max-width: 920px - 0.1px) {
+    @content;
+  }
+}
+
+@mixin media-mobile-size {
+  @media screen and (max-width: 480px - 0.1px) {
+    @content;
+  }
+}
+
+@mixin media-mobile-sm-size {
+  @media screen and (max-width: 321px - 0.1px) {
+    @content;
+  }
+}
+
+@mixin media-landscape-size {
+  @media screen and (orientation: landscape) and (max-height: 420px) and (min-aspect-ratio: 13/9) {
+    @content;
+  }
+}

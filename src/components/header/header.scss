@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  z-index: 10;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-item{
+      cursor: pointer;
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 72px;
+    }
+  }
+}

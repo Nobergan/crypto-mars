@@ -1,0 +1,12 @@
+mixin hero(data)
+  .hero
+    .hero__wrapper
+      h1.hero__title !{data.hero.title}
+      .hero__subtitle !{data.hero.subtitle}
+      .hero__contract
+        .hero__contract-title= data.hero.contract.title
+        .hero__contract-copy-wrap
+          input.hero__contract-code(type='text' value= data.hero.contract.code)
+          img.hero__contract-btn(src= data.hero.contract.button)
+      a.hero__btn(href= data.hero.button.link target='_blank')= data.hero.button.text
+    img.hero__planet-img(src=data.hero.planet.src  alt= data.hero.planet.alt )

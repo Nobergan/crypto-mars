@@ -1,0 +1,14 @@
+node_modules
+dist
+
+.DS_Store
+._.DS_Store
+
+.tmpTemplater
+.tmpPreproc
+
+.idea
+crypto-mars.iml
+npm-debug.log
+debug.log
+.vscode

@@ -1,0 +1,13 @@
+mixin head(data)
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(content="telephone=no", name="format-detection")
+    meta(name="HandheldFriendly", content="true")
+    title= data.head.title
+    link(href= data.head.fontFamily rel="stylesheet")
+    link(rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon.png")
+    meta(name="msapplication-TileColor" content="#da532c")
+    meta(name="theme-color" content="#ffffff")
+    link(rel="stylesheet" href="./main.css")

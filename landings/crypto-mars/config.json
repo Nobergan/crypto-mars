@@ -1,0 +1,42 @@
+{
+  "oldCookieName": "",
+  "head": {
+    "title": "$MARS",
+    "fontFamily": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+  },
+  "header": {
+    "logo": {
+      "src": "../img/logo/logo-mars.svg",
+      "alt": "M"
+    },
+    "nav": [
+      {
+        "item": "$MARS"
+      },
+      {
+        "item": "Roadmap"
+      },
+      {
+        "item": "Tokenomics"
+      }
+    ]
+  },
+  "hero": {
+    "title": "The first cryptocurrency<br> that will colonize <span>MARS</span>",
+    "subtitle": "We are starting a journey to MARS. Let's do it together. Don't miss your<br> chance to become the first investor of the new planet.",
+    "button": {
+      "text": "Buy on uniswap",
+      "link": "https://rezka.ag/films/drama/32372-korol-2019.html"
+    },
+    "contract": {
+      "title": "rt Contract:",
+      "code": "t7463fg834gf7634gf834g",
+      "button": "../img/main/copy-btn.svg"
+    },
+    "planet": {
+      "src": "../img/main/planet-mars.png",
+      "alt": "planet mars"
+    }
+  },
+  "main": {}
+}

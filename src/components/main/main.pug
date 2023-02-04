@@ -1,0 +1,13 @@
+include ../header/header
+include ../hero/hero
+
+- const data = config; // config is loaded through pug-html-loader in webpack.config.
+
+script.
+  window.landingConfig = (!{JSON.stringify(data).replace(/<\//g, '<\\/')});
+
+mixin main(data)
+  .hero__bg
+    .container
+      +header(data)
+      +hero(data)

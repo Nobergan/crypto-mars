@@ -1,0 +1,60 @@
+/*------------------------------------------------------------------
+    [Animations]
+------------------------------------------------------------------*/
+@keyframes moveSmoke{
+  50% {
+    background-position: 40vw bottom;
+  }
+
+  100% {
+    background-position: center bottom;
+  }
+}
+
+@keyframes scaleBtn {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes moveSlots {
+  0% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: -100%;
+  }
+}
+
+@keyframes moveSlotsMob {
+  0% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: -100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    background-position-x: 0
+  }
+  100% {
+    background-position-x: 1080px
+  }
+}
+
+@keyframes rotatePlanet {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
